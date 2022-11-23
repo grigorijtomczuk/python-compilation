@@ -2,8 +2,9 @@ def countDuplicates(nums):
 	counter = 0
 	for i in nums:
 		if nums.count(i) > 1:
-			counter +=1
-	return f"Duplicates: {counter}"	
+			counter += 1
+	return f"Duplicates found: {counter}"
+
 
 def main():
 	array = []
@@ -13,6 +14,7 @@ def main():
 		array.append(element)
 	print(array)
 	print(countDuplicates(array))
+
 
 if __name__ == "__main__":
 	main()

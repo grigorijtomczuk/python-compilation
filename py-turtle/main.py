@@ -1,5 +1,5 @@
-from math import sqrt
 import turtle
+from math import sqrt
 
 t = turtle.Turtle()
 
@@ -9,6 +9,7 @@ t.pensize(2)
 t.pencolor("white")
 t.speed(0)
 t.up()
+
 
 def triangle(a, n):
 	for i in range(n):
@@ -27,6 +28,7 @@ def triangle(a, n):
 		t.up()
 		t.home()
 		a *= 1.25
+
 
 triangle(50, 10)
 
